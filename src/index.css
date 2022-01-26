@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&family=Noto+Sans&family=Open+Sans:wght@300&family=Righteous&family=Roboto:ital,wght@1,300&display=swap');
+body{
+    background-color: #03103C;
+    color: #F5EBEB;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+main{
+   display: flex;
+   padding-left: 10%; 
+}
+
+img{
+    width: 25%;
+    height: 25%;
+    padding-left: 5%;
+}
+
+.content{
+    font-family: 'Kanit', sans-serif;
+    font-size: 100%;
+    max-width: 40%;
+}
+.buttons{
+    display: flex;
+    gap: 5%;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color:#1A1D60;
+    width: 250px;
+    padding:1px;
+    border-radius: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.textA{
+    color: #55D1DC;
+}
+.textB{
+    font-family: 'Roboto', sans-serif;
+    color:#8D9FD1;
+}
+
+.buttonA{
+    border-radius: 8px;
+    padding: 20px 25px;
+    background: #609CF1;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+    outline:unset;
+    border-style: none;
+}
+.buttonB{
+    border-radius: 8px;
+    padding: 20px 25px;
+    background: #03103C;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
+    cursor:pointer;
+    outline:unset
+}
+
+
+
+
+
+
